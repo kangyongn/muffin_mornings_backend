@@ -15,35 +15,10 @@ ActiveRecord::Schema.define(version: 2019_03_25_184745) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "api_v1_muffins", force: :cascade do |t|
-    t.string "flavor"
-    t.integer "calories"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "api_v1_orders", force: :cascade do |t|
-    t.integer "user_id"
-    t.integer "muffin_id"
-    t.string "review"
-    t.integer "stars"
-    t.string "image_url"
-    t.string "title"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "api_v1_users", force: :cascade do |t|
-    t.string "first_name"
-    t.string "last_name"
-    t.string "email"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
   create_table "muffins", force: :cascade do |t|
     t.integer "calorie"
     t.string "flavor"
+    t.string "image_url"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -53,7 +28,6 @@ ActiveRecord::Schema.define(version: 2019_03_25_184745) do
     t.integer "muffin_id"
     t.string "review"
     t.integer "stars"
-    t.string "image_url"
     t.string "title"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
