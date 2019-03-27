@@ -2,7 +2,7 @@ class Api::V1::OrdersController < ApplicationController
   before_action :get_order, only: [:show, :update, :destory]
 
   def index
-    @orders = Muffin.all
+    @orders = Order.all
     render json: @orders
   end
 
@@ -12,7 +12,6 @@ class Api::V1::OrdersController < ApplicationController
 
   def create
     @order = Order.new(order_params)
-
     if @order.save
       render json: @order, status: :created, location: @order
     else
@@ -37,7 +36,7 @@ class Api::V1::OrdersController < ApplicationController
   private
 
   def order_params
-    params.permit(:user_id, :muffin_id, :review, :stars, :title)
+    params.permit(:muffin_id, :review, :name)
   end
 
   def get_order
