@@ -14,7 +14,7 @@ class Api::V1::MuffinsController < ApplicationController
     @muffin = Muffin.new(muffin_params)
 
     if @muffin.save
-      render json: @muffin, status: :created, location: @muffin
+      render json: @muffin, status: :created
     else
       render json: @muffin.errors, status: :unprocessable_entity
     end
