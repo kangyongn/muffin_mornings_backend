@@ -22,3 +22,8 @@ Muffin.create(calorie:235, flavor: "Peanut Butter Banana Muffin", image_url:"htt
 Muffin.create(calorie:180, flavor: "Savory Muffin", image_url:"https://www.heartfoundation.org.au/images/made/images/uploads/recipes/Savoury_Breakfast_Muffin_Image_2_800_480_85_s_c1.jpg")
 Muffin.create(calorie:245, flavor: "Red Velvet Muffin", image_url:"https://d1doqjmisr497k.cloudfront.net/-/media/mccormick-us/recipes/mccormick/r/800/red-velvet-muffins.ashx?vd=20180710T034721Z&hash=0C49F8F9165B5185C74917CC1E45ED3322ECFD36")
 Muffin.create(calorie:115, flavor: "English Muffin", image_url:"https://avirtualvegan.com/wp-content/uploads/2017/08/vegan-english-muffins-2.jpg")
+Muffin.create(calorie:300, flavor: "Bacon Egg Muffin", image_url:"https://bakeatmidnite.com/wp-content/uploads/2014/06/bacon-egg-muffins-1-fg.jpg")
+Muffin.create(calorie:315, flavor: "Cream Cheese Cranberry Muffin", image_url:"https://tmbidigitalassetsazure.blob.core.windows.net/secure/RMS/attachments/37/1200x1200/Cream-Cheese-Cranberry-Muffins_exps31141_HB133235B07_26_6bC_RMS.jpg")
+Muffin.create(calorie:185, flavor: "Chocolate Banana Muffin", image_url:"https://www.yummymummykitchen.com/wp-content/uploads/2019/02/chocolate-banana-muffins-vegan-gluten-free-8-725x1088.jpg")
+Muffin.create(calorie:175, flavor: "Orange Lemon Poppy Seed Muffin", image_url:"https://cdn.sallysbakingaddiction.com/wp-content/uploads/2014/04/lemon-poppy-seed-muffins-2.jpg")
+Muffin.create(calorie:200, flavor: "Cran-Apple Muffin", image_url:"https://tmbidigitalassetsazure.blob.core.windows.net/secure/RMS/attachments/37/1200x1200/exps15996_HB143427B07_18_6b.jpg")

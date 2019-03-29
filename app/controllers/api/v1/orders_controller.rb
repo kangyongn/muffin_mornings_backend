@@ -1,5 +1,5 @@
 class Api::V1::OrdersController < ApplicationController
-  before_action :get_order, only: [:show, :update, :destory]
+  before_action :get_order, only: [:show, :update, :destroy]
 
   def index
     @orders = Order.all
